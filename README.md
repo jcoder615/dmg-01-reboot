@@ -30,16 +30,19 @@ This is **my first big project**, so I'm excited to share it and would love your
 - Surface mount soldering (SMT/SMD) experience
 - Familiarity with Raspberry Pi setup
 
-### Materials
-- Raspberry Pi Zero (or Zero W/WH)
-- Full-color LCD screen module
-- PCB (order using the design files in this repo)
-- Microcontroller/supporting electronics (see BOM)
-- Original Game Boy DMG-01 shell
-- Various resistors, capacitors, and connectors (detailed in BOM)
-- MicroSD card
+### Materials & Bill of Materials
 
-**Full Bill of Materials (BOM)** - See `/hardware/BOM.md` or the schematic files for complete component details.
+This project consists of multiple PCBs, each with its own Bill of Materials (BOM). Check the relevant BOM file for each PCB you're building:
+
+- **Main Board** - See `/hardware/main-board/BOM.md`
+- **Display Board** - See `/hardware/display-board/BOM.md`
+- **Power Board** - See `/hardware/power-board/BOM.md`
+- *(Add additional boards as your design takes shape)*
+
+**Note:** BOMs are organized by PCB in the `/hardware` directory. Each folder contains:
+- Schematic files
+- PCB design files (Gerber format for ordering)
+- Component BOM for that specific board
 
 ---
 
@@ -48,6 +51,10 @@ This is **my first big project**, so I'm excited to share it and would love your
 ```
 dmg-01-reboot/
 ├── hardware/           # PCB design files, schematics, and BOMs
+│   ├── main-board/     # [Add your PCB folders here]
+│   ├── display-board/
+│   ├── power-board/
+│   └── ...
 ├── software/           # RetroPie plugins and configuration
 ├── docs/              # Build guides and troubleshooting
 ├── assets/            # Images and diagrams
@@ -59,7 +66,7 @@ dmg-01-reboot/
 ## 🚀 Quick Start
 
 1. **Order PCBs** - Use the design files in `/hardware` to order from your favorite PCB manufacturer (Gerber files included)
-2. **Gather Components** - Consult the BOM for all required parts
+2. **Gather Components** - Consult the BOM files for all required parts
 3. **Solder the Board** - Assemble through-hole, SMT, and SMD components
 4. **Set Up Raspberry Pi** - Flash RetroPie and install the custom hardware plugins from `/software`
 5. **Assemble** - Fit everything into the Game Boy shell
