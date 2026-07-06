@@ -16,6 +16,7 @@ This is **my first big project**, so I'm excited to share it and would love your
 
 - **Raspberry Pi Zero Powered** - Compact, powerful, and perfect for retro emulation
 - **Full-Color LCD Screen** - Say goodbye to the monochrome dot matrix
+- **Backlight** - For the late-night Goomba-stomping grinds
 - **MicroSD Cartridges** - Load your favorite games from cartridge-style media
 - **Original DMG-01 Shell** - Classic form factor with modern internals
 - **RetroPie Compatible** - Runs RetroPie with custom hardware plugins for seamless integration
@@ -36,7 +37,7 @@ This project consists of multiple PCBs, each with its own Bill of Materials (BOM
 
 - **Main Board** - See `/hardware/main-board/BOM.md`
 - **Display Board** - See `/hardware/display-board/BOM.md`
-- **Power Board** - See `/hardware/power-board/BOM.md`
+- **Cartridge Board** - See `/hardware/power-board/BOM.md`
 - *(Add additional boards as your design takes shape)*
 
 **Note:** BOMs are organized by PCB in the `/hardware` directory. Each folder contains:
@@ -66,7 +67,7 @@ dmg-01-reboot/
 ## 🚀 Quick Start
 
 1. **Order PCBs** - Use the design files in `/hardware` to order from your favorite PCB manufacturer (Gerber files included)
-2. **Gather Components** - Consult the BOM files for all required parts
+2. **Gather Components** - Consult the BOM files and DigiKey for all required parts
 3. **Solder the Board** - Assemble through-hole, SMT, and SMD components
 4. **Set Up Raspberry Pi** - Flash RetroPie and install the custom hardware plugins from `/software`
 5. **Assemble** - Fit everything into the Game Boy shell
@@ -79,12 +80,14 @@ For detailed build instructions, see `/docs/BUILD_GUIDE.md`.
 
 ## 💻 Software
 
-The project runs **RetroPie** with custom hardware plugins designed specifically for the dmg-01-reboot hardware. These plugins handle:
+The project runs **RetroPie** with custom control routing designed specifically for the dmg-01-reboot hardware. These plugins handle:
 - LCD display integration
 - Button mapping and input handling
 - MicroSD cartridge detection and ROM loading
 
-Installation and configuration instructions are in `/software/README.md`.
+Installation and configuration instructions are included in this repo.
+
+**small disclaimer**: this is not a package install. it will just be a guide for mapping with the retropie software. In fact, this is my first time using RetroPie or even doing DIY game mods apart from programming school calculators, so please give me some grace.  
 
 ---
 
@@ -118,7 +121,7 @@ Once the design is fully finalized, a detailed changelog and version history wil
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 Having issues? Check `/docs/TROUBLESHOOTING.md` for common problems and solutions. If you find something not covered, please reach out!
 
@@ -126,7 +129,7 @@ Having issues? Check `/docs/TROUBLESHOOTING.md` for common problems and solution
 
 ## ⚠️ Disclaimer
 
-This is a community project built for educational and hobbyist purposes. Make sure you own the games/ROMs you're playing. Respect copyright laws in your jurisdiction.
+This is a personal/hobby project built for educational and hobbyist purposes. Make sure you own the games/ROMs you're playing. Respect copyright laws in your jurisdiction.
 
 ---
 
@@ -136,9 +139,12 @@ This project is open-source. See the `LICENSE` file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-Thanks to the RetroArch, RetroPie, and broader retro gaming communities for inspiration and resources. This project builds on the shoulders of giants in the DIY gaming space.
+Thanks to the RetroArch, RetroPie, and the Ezell-Turner Family for inspiration and resources. This project builds on the shoulders of giants in the Makerspace.
+I strongly encourage you to check out Vadis Turner's Mixed media art sculptures and support her work. Her site is at `https://vadisturner.com`. Your assistance in growing her community would mean a lot to me!
+Thank you Clay Ezell for donating your childhood DMG-01, and my parents, who have been here for me to help me get through the hardest parts of my life.
+What a long, strange trip it's been!
 
 ---
 
@@ -150,4 +156,4 @@ Feel free to open an issue on GitHub or send me an email with your thoughts. Thi
 
 ---
 
-**Happy building, and enjoy your modernized Game Boy!** 🎮✨
+**Happy building, and enjoy your modernized Game Boy!** 
