@@ -141,8 +141,15 @@ This project is open-source. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
-Thanks to the RetroArch, RetroPie, and the Ezell-Turner Family for inspiration and resources. This project builds on the shoulders of giants in the Makerspace.
-I strongly encourage you to check out Vadis Turner's Mixed media art sculptures and support her work. Her site is at `https://vadisturner.com`. Your assistance in growing her community would mean a lot to me!
+Thanks to:
+* Texas Instruments Datasheets (`https://www.ti.com/lit/ds/symlink/tps56339.pdf?ts=1783426660975`),
+* Kamicane's super-dmg-01 repo for some motherboard footprints (`https://github.com/kamicane/Super-DMG-01`),
+* The Raspberry Pi foundation, for providing the core of this project,
+* And the Ezell-Turner Family for inspiration, encouragement, and an absolutely stunning Independence Day fireworks show!
+
+  This project builds on your shoulders.
+
+  I strongly encourage you to check out Vadis Turner's Mixed media art sculptures and support her work. Her site is at `https://vadisturner.com`. Your assistance in growing her community would mean a lot to me!
 Thank you Clay Ezell for donating your childhood DMG-01, and my parents, who have been here for me to help me get through the hardest parts of my life.
 What a long, strange trip it's been!
 
