@@ -1,4 +1,4 @@
-# dmg-01-reboot
+# dmg-01-reboot (Cheese Boy)
 
 A fully modernized, retro-futuristic revive for the classic Game Boy DMG-01. This is a complete DIY project featuring a Raspberry Pi Zero, a vibrant full-color LCD screen, and working microSD cartridges—all in the iconic original shell.
 
