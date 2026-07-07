@@ -130,7 +130,7 @@ Having issues? Check `/docs/TROUBLESHOOTING.md` for common problems and solution
 ## ⚠️ Disclaimer
 
 This is a personal/hobby project built for educational and hobbyist purposes. Make sure you own the games/ROMs you're playing. Respect copyright laws in your jurisdiction.
-I am not an electronics expert. I consider my self well-versed in electronics. keep in mind that I WAS BORN IN 2013; although I have worked with and taught myself the art of electronics since around 2018. I AM NOT, IN ANY WAY, RESPONSIBLE FOR ANY PHYSICHAL OR MENTAL HARM CAUSED BY MY PROJECT.. YOU CHOSE TO BULD THE PROJECT. I AM JUST THE DESIGNER.
+I am not an electronics expert. I consider my self well-versed in electronics. keep in mind that I WAS BORN IN 2013; although I have worked with and taught myself the art of electronics since around 2018. I AM NOT, IN ANY WAY, RESPONSIBLE FOR ANY PHYSICHAL OR MENTAL HARM CAUSED BY MY PROJECT. YOU CHOSE TO BULD THE PROJECT. I AM JUST THE DESIGNER.
 
 ---
 
